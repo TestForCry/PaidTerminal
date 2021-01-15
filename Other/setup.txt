@@ -1,0 +1,19 @@
+apt update && apt-get update
+
+sudo adduser admin
+
+userdel
+
+sudo change USERNAME
+
+sudo chage -M 90 -W 30 -E 2020-06-07 username
+
+chage -d 30 admin
+
+Linux Login ssh -p 54647 root@54.191.236.83
+
+ip: 54.191.236.83
+port: 54647
+
+List users, they will be at the very botom
+sed 's/:.*//' /etc/passwd
